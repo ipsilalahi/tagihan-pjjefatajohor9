@@ -1,0 +1,24 @@
+{
+  "name": "whatsapptagihanpjj9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "auth.json"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.0",
+    "nodemon": "^3.0.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
